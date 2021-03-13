@@ -1,0 +1,17 @@
+[
+  {
+    "type": "body",
+    "description":"Estique os braços",
+    "amount": 80
+  },
+  {
+    "type":"body",
+    "description": "Estique as pernas",
+    "amount": 60
+  },
+  { 
+    "type": "eye",
+    "description": "Mexa lentamente os olhos",
+    "amount": 90
+  }
+]
