@@ -77,8 +77,8 @@ const ChallengesProvider = ({ children, ...rest }: ChallengesProviderProps) => {
 
     if (Notification.permission === 'granted') {
       console.log(Notification.permission)
-      const myNot = new Notification('Novo desafio!!', {
-        body: `Valendo ${challenge.amount}`,
+      const myNot = new Notification('New challenge!!', {
+        body: `Receives ${challenge.amount} xp`,
       })
       console.log(myNot)
     }
