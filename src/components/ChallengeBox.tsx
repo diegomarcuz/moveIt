@@ -25,11 +25,11 @@ const ChallengeBox = () => {
       {currentChallenge ? (
         <div className={styles.challengeActive}>
           <header>
-            Ganhe {currentChallenge.amount} xp
+            Earn {currentChallenge.amount} xp
           </header>
           <main>
             <img src={`icons/${currentChallenge.type}.svg`} alt="" />
-            <strong>Novo desafio</strong>
+            <strong>New Challenge</strong>
             <p>{currentChallenge.description}</p>
 
           </main>
@@ -55,10 +55,10 @@ const ChallengeBox = () => {
       ) : (
 
         <div className={styles.challengeNotActive}>
-          <strong>Finalize um ciclo para receber um desafio</strong>
+          <strong>Wait the countdown ends to receive the challenge</strong>
           <p>
             <img src="icons/level-up.svg" alt="LEVEL UP" />
-            Avance de level completando desafios.
+            Finish the challenges in order to raise the level.
           </p>
         </div>
 
