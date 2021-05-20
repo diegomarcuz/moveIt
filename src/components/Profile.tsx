@@ -11,7 +11,7 @@ const Profile = () => {
     <div className={styles.profileContainer}>
       <img src="https://github.com/diegomarcuz.png" alt=" Diego MARCUZ" />
       <div>
-        <strong>Diego Marucz</strong>
+        <strong>Diego Marcuz</strong>
         <p>
           <img src="icons/level.svg" alt="" />
           Level {level}</p>
