@@ -1,17 +1,17 @@
 [
   {
     "type": "body",
-    "description":"Estique os braços",
+    "description":"Stretch your arms",
     "amount": 80
   },
   {
     "type":"body",
-    "description": "Estique as pernas",
+    "description": "Stretch your legs",
     "amount": 60
   },
   { 
     "type": "eye",
-    "description": "Mexa lentamente os olhos",
+    "description": "Move your eyes slowly",
     "amount": 90
   }
 ]
