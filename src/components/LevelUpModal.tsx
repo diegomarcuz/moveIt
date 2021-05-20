@@ -10,8 +10,8 @@ const LevelUpModal = () => {
       <div className={styles.container}>
         <header>{level}</header>
 
-        <strong>Parabéns</strong>
-        <p>Você alcançou um novo nível</p>
+        <strong>Congratulations</strong>
+        <p>You reached a new level!</p>
         <button type="button" onClick={closeLevelUpModal}>
           <img src="/icons/close.svg" alt="Fechar modal" />
         </button>
